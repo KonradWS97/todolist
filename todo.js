@@ -15,20 +15,20 @@ przycisk.addEventListener('click',function(){
     var przyciskUsuwajacy=document.createElement('button')
     eliki.innerHTML=tresclisty.value
     var wartoscli=tresclisty.value
-    // przyciskCheck.innerHTML= "check"
+    przyciskCheck.innerHTML= "check"
     przyciskUsuwajacy.innerHTML= "   delete"
-    // przyciskCheck.innerHTML="  done!"
+    przyciskCheck.innerHTML="  done!"
     todoli.appendChild(eliki).appendChild(przyciskUsuwajacy)
-    // todoli.appendChild(przyciskCheck)
+    todoli.appendChild(eliki).appendChild(przyciskCheck)
     var pole=document.getElementById('input')
-    // przyciskCheck.style.display="inline-block"
+    przyciskCheck.style.display="inline-block"
     przyciskUsuwajacy.style.display="inline-block"
     pole.value=""
 
         przyciskCheck.addEventListener('click', function(){
             eliki.style.color="white"
             eliki.innerText=wartoscli+"    done!!!"
-            todoli.appendChild(przyciskUsuwajacy)
+            todoli.appendChild(eliki).appendChild(przyciskUsuwajacy)
             
         })
         przyciskUsuwajacy.addEventListener('click', function(){
