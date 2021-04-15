@@ -1,0 +1,27 @@
+.body
+{
+margin: 0px;
+font-family: 'Zen Dots', cursive;
+}
+.container
+{ display: block;
+    background-color: gray;
+    font-family: 'Zen Dots', cursive;
+}
+.h 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input
+{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.lista
+{
+    display:  inline-block;
+
+}
